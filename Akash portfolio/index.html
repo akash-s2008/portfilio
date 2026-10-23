@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akash | Interactive Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="stars" id="stars"></div>
+  <div class="cursor-glow" id="glow"></div>
+
+  <nav class="navbar">
+    <a href="#home" class="logo">AKASH<span>.</span></a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button id="themeBtn" class="theme-btn" aria-label="Change theme">☀️</button>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="welcome">✦ WELCOME TO MY UNIVERSE ✦</p>
+        <h1>HEY, I'M <span class="glitter">AKASH</span></h1>
+        <h2>I'm a <span id="typing"></span><span class="caret">|</span></h2>
+        <p class="description">
+          I create beautiful digital experiences with creativity,
+          code and a little bit of magic.
+        </p>
+        <div class="buttons">
+          <a href="#about" class="btn primary">Explore More ↗</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="mailto:akashsakash255@gmail.com">✉ Email Me</a>
+          <span>✦ Creative ✦ Innovative ✦ Passionate</span>
+        </div>
+      </div>
+
+      <div class="profile-area">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <img id="profilePhoto"
+            src="https://placehold.co/400x500/15152d/c084fc?text=YOUR+PHOTO"
+            alt="Akash profile photo">
+          <label for="photoUpload" class="upload-label">
+            📸 Upload Your Photo
+          </label>
+          <input type="file" id="photoUpload" accept="image/*" hidden>
+        </div>
+        <span class="floating-icon icon-one">✦</span>
+        <span class="floating-icon icon-two">⚡</span>
+        <span class="floating-icon icon-three">✧</span>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="section-tag">GET TO KNOW ME</p>
+      <h2 class="section-title">About <span class="glitter">Me</span></h2>
+      <div class="glass-card">
+        <h3>Hi, I'm Akash 👋</h3>
+        <p>
+          I'm passionate about technology, creativity and building
+          awesome things for the web. I enjoy learning new skills,
+          exploring innovative ideas and turning imagination into reality.
+        </p>
+        <p>
+          This is my personal space on the internet. Welcome to my world!
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="section-tag">WHAT I WORK WITH</p>
+      <h2 class="section-title">My <span class="glitter">Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card"><span>🌐</span><h3>HTML</h3><p>Web Structure</p></div>
+        <div class="skill-card"><span>🎨</span><h3>CSS</h3><p>Creative Design</p></div>
+        <div class="skill-card"><span>⚡</span><h3>JavaScript</h3><p>Interactive Web</p></div>
+        <div class="skill-card"><span>💡</span><h3>Creativity</h3><p>Fresh Ideas</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <p class="section-tag">LET'S CONNECT</p>
+      <h2 class="section-title">Contact <span class="glitter">Me</span></h2>
+      <div class="glass-card contact-card">
+        <div class="contact-icon">💌</div>
+        <h3>Have an awesome idea?</h3>
+        <p>Let's connect and create something amazing together.</p>
+        <a class="btn primary"
+          href="mailto:akashsakash255@gmail.com?subject=Portfolio%20Contact">
+          ✉ akashsakash255@gmail.com
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with <span class="glitter">♥</span> by Akash</p>
+    <p>© 2026 Akash. All rights reserved.</p>
+  </footer>
+
+  <button id="topBtn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
